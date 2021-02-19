@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -22,6 +22,8 @@ a:hover {
   margin: 15px 0 0 0;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 .main-header {
@@ -58,6 +60,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   height: 80vh;
+  width: auto;
   padding-top: 28px;
   align-items: center;
 }
@@ -65,7 +68,7 @@ a:hover {
 .form-group img {
   width: auto;
   height: 90px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .form-group .search-bar {
@@ -109,8 +112,8 @@ a:hover {
   color: #222;
 }
 
-.form-group .button-group {
-  margin-top: 30px;
+.button-group {
+  margin-top: -15px;
 }
 
 .button-group .btn_search {
@@ -144,19 +147,48 @@ ul li:last-child {
 }
 
 .form-logo-search svg {
-  position: absolute;
+  position: relative;
   width: 14px;
   height: 14px;
   fill: #7b7d81;
-  left: 405px;
-  top: 213px;
+  top: -30px;
+  left: -260px;
 }
 
 .form-logo-keyboard svg {
-  position: absolute;
+  position: relative;
+  top: -50px;
+  left: 270px;
   width: 40px;
   height: 20px;
   fill: #7b7d81;
-  right: 400px;
-  top: 210px;
+}
+
+@media(max-width: 780px){
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 16px;
+  }
+
+  .footer-container .right-group {
+    margin-top: 10px;
+  }
+}
+
+@media(max-width: 650px) {
+  .form-group .search-bar{
+    width: 80%;
+  }
+
+  .button-group {
+    margin-top: 20px;
+  }
+
+  .icons {
+    display: none;
+  }
+
 }
