@@ -194,8 +194,7 @@ ul li:last-child {
   .left-group a, .right-group a {
     margin-right: 45px;
   }
-
-
+}
 @media(max-width: 700px) {
   .form-group .input-field .search-bar{
     width: 80%;
