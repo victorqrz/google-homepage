@@ -71,7 +71,27 @@ a:hover {
   margin-bottom: 25px;
 }
 
-.form-group .search-bar {
+.input-field {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-field .form-logo-search, .input-field .form-logo-keyboard {
+  position: relative;
+  align-self: center;
+}
+
+.input-field .form-logo-search {
+  left: 40px;
+}
+
+.input-field .form-logo-keyboard {
+  right: 50px;
+}
+
+.form-group .input-field .search-bar {
   max-width: 590px;
   width: 100%;
   height: 45px;
@@ -81,12 +101,12 @@ a:hover {
   font-size: 16px;
 }
 
-.form-group input:hover {
+.form-group .input-field input:hover {
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
   border-color: rgba(223, 225, 229, 0);
 }
 
-.form-group input:focus {
+.form-group .input-field input:focus {
   outline: none;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
   border-color: rgba(223, 225, 229, 0);
@@ -146,19 +166,13 @@ ul li:last-child {
   margin-right: -20px;
 }
 
-.form-logo-search svg {
-  position: relative;
-  width: 14px;
-  height: 14px;
+.input-field .form-logo-search svg{
+  width: 20px;
+  height: 15px;
   fill: #7b7d81;
-  top: -30px;
-  left: -260px;
 }
 
-.form-logo-keyboard svg {
-  position: relative;
-  top: -50px;
-  left: 270px;
+.input-field .form-logo-keyboard svg {
   width: 40px;
   height: 20px;
   fill: #7b7d81;
@@ -178,13 +192,9 @@ ul li:last-child {
   }
 }
 
-@media(max-width: 650px) {
-  .form-group .search-bar{
+@media(max-width: 700px) {
+  .form-group .input-field .search-bar{
     width: 80%;
-  }
-
-  .button-group {
-    margin-top: 20px;
   }
 
   .icons {
