@@ -197,6 +197,23 @@ ul li:last-child {
 }
 @media(max-width: 700px) {
   .form-group .input-field .search-bar{
-    width: 80%;
+    width: 100%;
+    margin-left: 25px;
+  }
+
+  .input-field .form-logo-search {
+    left: 60px;
+  }
+  
+  .input-field .form-logo-keyboard {
+    right: 45px;
+  }
+
+  .left-group a, .right-group a {
+    margin-right: 30px;
+  }
+
+  .form-group {
+    padding-top: 70px;
   }
 }
