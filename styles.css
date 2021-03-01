@@ -201,6 +201,12 @@ ul li:last-child {
     margin-left: 25px;
   }
 
+  .footer-container .left-group .footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
   .input-field .form-logo-search {
     left: 60px;
   }
