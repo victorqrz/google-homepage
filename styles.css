@@ -207,6 +207,10 @@ ul li:last-child {
     justify-content: space-evenly;
   }
 
+  .left-group .footer-list li a {
+    margin-bottom: 20px;
+  }
+
   .input-field .form-logo-search {
     left: 60px;
   }
