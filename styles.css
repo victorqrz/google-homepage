@@ -207,8 +207,8 @@ ul li:last-child {
     justify-content: space-evenly;
   }
 
-  .left-group .footer-list li a{
-    padding: 30px;
+  .left-group .footer-list li{
+    padding: 10px;
   }
 
   .input-field .form-logo-search {
@@ -220,7 +220,7 @@ ul li:last-child {
   }
 
   .left-group a, .right-group a {
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   .form-group {
