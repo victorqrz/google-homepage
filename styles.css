@@ -196,6 +196,7 @@ ul li:last-child {
   }
 }
 @media(max-width: 700px) {
+
   .form-group .input-field .search-bar{
     width: 100%;
     margin-left: 25px;
@@ -225,5 +226,12 @@ ul li:last-child {
 
   .form-group {
     padding-top: 70px;
+  }
+}
+
+@media (max-width: 580px) {
+  .form-group img {
+    width: 60%;
+    height: 70px;
   }
 }
