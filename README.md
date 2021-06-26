@@ -1,1 +1,1 @@
-First exercise of the course - Google Home page clone
+First exercise of TOP - Google Home page clone
