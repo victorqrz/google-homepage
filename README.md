@@ -11,7 +11,7 @@ Html Css Javascript
 ## Screenshots
 
 <p align="center" >
- 
+  <img src="./imgs/img1.png"/>
 </p>
 
   
